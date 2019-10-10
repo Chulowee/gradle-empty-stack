@@ -1,7 +1,7 @@
 package model;
 
 public class AndroidMobile extends Mobile {
-    private int limit = 6;
+    private int limit = 10;
     @Override
     public String call(String message){
         if (message.length()>=limit){
